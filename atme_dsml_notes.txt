@@ -1,0 +1,98 @@
+ATME DS-ML TRAINING
+
+DAY1 THURSDAY 08-05-2025
+Create Git Account (use permanent email and phone number)
+Create a new public repository
+
+Python 		(Language)					python, pip
+Notepad++ 	(Faster notes making)		
+Git			Version control system		git
+Node		To learn extra language		node, npm
+vs code		IDE							code
+
+Google search: Download Python
+https://www.python.org/downloads/
+Click on the OS which is running on your system
+This downloads the setup file (installer file) .msi
+
+Google search: Download Notepad++
+https://notepad-plus-plus.org/downloads/
+Click 8.7.7
+Click the Green button with box
+This downloads the setup file (installer file) .msi
+
+Google search: Download Git
+https://git-scm.com/downloads
+Click on the respective OS
+This downloads the setup file (installer file) .msi
+
+Google search: Download Node
+https://nodejs.org/en/download
+Change the OS from the drop-down list if it is other than Windows
+Click on Windows Installer (.msi)
+This downloads the setup file (installer file) .msi
+
+Google search: Download vs code
+https://code.visualstudio.com/download
+Click on Windows 10, 11
+This downloads the setup file (installer file) .msi
+
+Arranging the Files and Folders in our Laptop:
+
+Create a folder named software inside C drive
+Now create the folders:
+vs_code, git, notepad_pp, node, python 
+
+Cut and paste all the installer files into their respective folders.
+Now double click all these setup files and install them.
+Note: While installing have a look at the path where these Apps/software are being installed.
+
+When we have installed an App but its command is not available globally, then to make it available globally, we have to add its path to Environment variables.
+
+For example, mysql or mongodb or mingw etc path are not added to EV.
+So to add them to EV, we have to copy the path where they are installed.
+For example mysql is installed in the path:
+C:\Program Files\MySQL\MySQL Server 8.0\bin
+Copy this path
+search ENV in windows search
+Click Edit environment variables
+Click Environment Variable button
+Double Click Path
+Click New
+Paste the path
+Click Ok OK OK
+
+https://www.youtube.com/@mtd.nithin/videos
+
+Steps to create new git repository:
+	Login into Git account
+	Click on + symbol on top of webpage (some where at mid position)
+	select new repository
+	Give the New Repo Name: atme_dsml
+	Give a description
+	keep the repo public
+	select the check box add readme file
+	click create repository
+
+Git Commands:
+$ git status
+
+This gives us the current status of our local repo. That is shows the files and folders that are not yet uploaded/pushed into the remote repo.
+--------------
+$ git clone <repo_URI>
+This command copies the repo from github server to our laptop
+Example:
+$ git clone https://github.com/neelmyna/atme_dsml
+--------------
+Steps To push the files and folders to our remote repo:
+$ git add .
+This command stages/lists all the files and folders from the current path that are not updated in the remote repo.
+
+$ git commit -m "proper message"
+This command creates an object which consists of all the files and folders that were listed/staged.
+
+$ git push origin main
+This command pushes/uploads the commited object to the remote repo (via internet using http protocol)
+
+
+
