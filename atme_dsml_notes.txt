@@ -88,11 +88,25 @@ Steps To push the files and folders to our remote repo:
 $ git add .
 This command stages/lists all the files and folders from the current path that are not updated in the remote repo.
 
-$ git commit -m "proper message"
+$ git commit -m "relavant message"
 This command creates an object which consists of all the files and folders that were listed/staged.
 
 $ git push origin main
 This command pushes/uploads the commited object to the remote repo (via internet using http protocol)
+---------------------------------------------
+Day1 Assignment:
+1. Why python has no implicit type casting.
+2. List the error types in Python and their meaning with an example
+3. What is None in Python ?
+4. How does for i in range(10) is working
 
+n = 15
+for i in range(n):
+	print(i)
+	i += 2
+0
+1
+2
+3
 
-
+14
