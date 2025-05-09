@@ -1,9 +1,4 @@
-print('-' * 27)
-print('%-17s %s'%('Salary_Range', 'Tax_Percentage'))
-print('-' * 30)
-print('%7d - %-7d %3d%%'%(0, 300000, 0))
-print('%7d - %-7d %3d%%'%(300001, 600000, 5))
-print('%7d - %-7d %3d%%'%(600001, 900000, 10))
-print('%7d - %-7d %3d%%'%(900001, 1200000, 15))
-print('%7d - %-7d %3d%%'%(1200001, 1500000, 20))
-print('%7d - %-7s %3d%%'%(1500001, 'Or More', 30))
+def my_function(num1, num2):
+    print(num1, num2)
+
+my_function(10, 20)
