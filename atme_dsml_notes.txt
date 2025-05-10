@@ -131,4 +131,56 @@ my_function(10, 20)
 Command Line Args:
 
 The Arguments which are passed via the Command Line to the program. These arguments are received in the list named argv which can be accessed by the package sys.
+-------------------------------
+DAY3 SATURDAY 10-05-2025
 
+i = i // 2
+
++ - * / % // **
+
+4 - 5
+4.5 - 5.5
+
+- 4 5
+4 5 -
+
+444 - 5 / 10
+Convert Infix expression into postfix
+Evaluate a Postfix expression
+----------------
+List Methods:
+
+List: It is DS 
+
+append() Adds the element at end of the list
+------------------------
+In Python there is no Function Overloading.
+
+range(10)
+range(10, 1, -2)
+range(2, 20, 3)
+range(10, 100)
+
+def my_range(*args):
+	if len(args) == 1:
+		i = 0
+		while i < args[0]:
+			yield i
+			i += 1
+	elif len(args) == 2:
+		i = args[0]
+		while i < args[1]:
+			yield i
+			i += 1
+	elif len(args) == 3:
+		if args[0] > args[1] and args[2] < 0:
+			i = args[0]
+			while i > args[1]:
+				yield i
+				i += args[2]
+		elif args[0] < args[1] and args[2] > 0:
+			i = args[0]
+			while i < args[1]:
+				yield i
+				i += args[2]
+			
