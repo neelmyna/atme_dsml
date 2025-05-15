@@ -9,7 +9,7 @@ Note: arange() create a 1D List and not 2D list
 '''
 import numpy
 
-arr3 = numpy.arange(1, 10)
+arr3 = numpy.arange(1, 10)  # [1, 10)
 arr4 = numpy.arange(1, 20, 4)
 print(f'Arr3 = {arr3}')
 print(f'Arr4 = {arr4}')

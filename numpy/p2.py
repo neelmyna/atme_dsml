@@ -1,5 +1,5 @@
 import numpy as np
-arr1 = np.zeros((1, 3)) # Created an Array of 1D (i.e. a single array) of 3 elements, all of which are zeroes. The Array created is nothing but a Python List.
+arr1 = np.zeros( (1, 3) ) # Creates a 2D Array in which the 1st 1D array has 3 elements, all of which are zeroes.
 print(arr1)
 arr2 = np.zeros((2, 5))
 print(arr2)

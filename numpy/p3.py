@@ -1,4 +1,4 @@
-#To initialize an Array/List of multi dimentional, with all elements Zero, we use the method zeroes()
+#To initialize an Array/List of multi dimentional, with all elements Zero, we use the method zeros()
 import numpy as np
 
 my_number = int(input('Enter a number of your choice: '))
