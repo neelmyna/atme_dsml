@@ -11,6 +11,12 @@ a1 = np.array([22, 42, 6, 81])
 a2 = np.array([30, 91, 7, 51])
 a3 = np.array([0, 10, 23, 32])
 
-print(np.vstack((a1, a2, a3))) # place a1 on a2 and a2 on a3
+print(np.vstack( (a1, a2, a3) )) # place a1 on a2 and a2 on a3
 print('\n')
 print(np.vstack((a3, a1, a2, a1)))
+
+a4 = np.ones([3, 5])
+a5 = np.ones([3, 5])
+
+v_array = np.vstack((a4, a5))
+print(v_array)

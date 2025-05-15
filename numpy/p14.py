@@ -9,7 +9,7 @@ a5 = np.ones([3, 4])
 
 # hstack() 'h' stands for horizontal
 # Unlike vstack, hstack() can stack arrays of different sizes.
-# The output the method hstack() returns is always 1D array
+# The hstack() returns is 1D array or 2D Array. If the I/P are 1D array then the O/P is also 1D array and so on.
 # When we apply hstack() on 2D arrays as the i/p then the number of rows must be same. The column numbers may differ.
 print(np.hstack((a1, a2)))
 print(np.hstack((a1, a2, a3)))

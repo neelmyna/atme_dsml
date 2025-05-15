@@ -1,6 +1,6 @@
 '''
 Array shape
-All arrays have a shape accessible using .shape
+All arrays have a shape accessible using .shape property
 For example, let's get the shape of a vector, matrix, and tensor.
 '''
 import numpy as np
@@ -10,7 +10,7 @@ print('Vector:', vector)
 print("Vector shape:", vector.shape)
 
 matrix = np.ones((3, 2))
-print('Matrix:', matrix)
+print('Matrix:\n', matrix)
 print('Matrix shape:', matrix.shape)
 
 tensor = np.zeros((2, 3, 3))
