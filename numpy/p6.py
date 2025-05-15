@@ -8,3 +8,6 @@ print(f'Arr6 = {arr6}')
 
 arr7 = numpy.full((1, 5), 5) # 1D Array of 5 elements each of whose value is 5
 print(f'Arr7 = {arr7}')
+
+arr8 = numpy.full(5, 1) # 1D Array of 1 element which is 5
+print(f'Arr8 = {arr8}')
